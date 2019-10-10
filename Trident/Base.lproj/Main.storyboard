@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Trident" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" usesAttributedText="YES" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YMs-rS-gEa">
+                                <rect key="frame" x="14" y="77" width="386" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.5809161876493637" green="0.61362532383419688" blue="0.28085499214059367" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Trident">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="96" name="Helvetica"/>
+                                            <font key="NSOriginalFont" size="96" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <shadow key="NSShadow" blurRadius="10">
+                                                <size key="offset" width="4.7455063466959939e-16" height="7.75"/>
+                                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="0.33333333333333331" colorSpace="calibratedRGB"/>
+                                            </shadow>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zhc-r5-N3I">
+                                <rect key="frame" x="37" y="232" width="340" height="33.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hammer Of The High Ice">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIl-Fm-bvX">
+                                <rect key="frame" x="124" y="675" width="167" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enter The Saga."/>
+                                <connections>
+                                    <segue destination="1uY-dA-ab3" kind="modal" id="E18-M6-NRR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28669569398274464" green="0.34703114690550035" blue="0.61362532383419688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G5d-0V-AO6">
+            <objects>
+                <viewController id="1uY-dA-ab3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9gv-m5-nHz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9M-ON-DRf">
+                                <rect key="frame" x="142" y="782" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue The Saga"/>
+                                <connections>
+                                    <segue destination="ehk-JC-uzC" kind="modal" id="0DS-RJ-uMk"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bNz-ee-XCi">
+                                <rect key="frame" x="20" y="124" width="374" height="649"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385306517654" green="0.20427239702566263" blue="0.4229626428657377" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Gazing across the desolate plains of the Yuberian Wastelands, one might come to question how this sprawling expanse of one verdant farmlands had became a desolate badlands, wracked by great lighting storms, tectonic upheavel and forces that threatened all static settlement, forcing the populace to traverse it's rocky barrens in self-propelled armored wagons. 
+
+Some say these forces had been the result of a wrathful creator turning his attention upon his dissident children, in particular those that lived in the modern day Alymean Technocracy. 
+
+Others insisted that it was the result of some alien prescence, hailing from beyond the stars and perhaps that very fabric of the cosmos, that had decided the world of Quorokon made an excellent test for one super weapon or another in their destructive conflict with those of the Other. 
+
+Whatever the case, it was the denizens of Quorokon that were saddled with the struggle of ecking out a living in the Yuberian Wastelands. 
+
+Some, such as the Technocracy, had done so aptly, embracing technology and kickstarting an industrial revolution with knowlege obtained from the wreckage heaps and remnants of otherwordly ruins that dotted the Yuberian Cauldron. 
+
+Others, such as the Raetheon Dominate, did so by subjecting their neighbors to their mailed fist, bartering or coercing the means to do so from the neighbors such as the Technocracy and Vetachiaon Republic. 
+
+Yet still, there were others that decided a different route to longterm survial was present. Though they sought subjugation, they perhaps took it further than their neighbors were willing to in the pursuit of their agenda.....</string>
+                                <color key="textColor" red="0.94291322969543145" green="0.87578481636577421" blue="0.34229468689135295" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11753987350944207" green="0.26979400582598878" blue="0.55863047281497624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="EMK-au-YOd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HpX-UM-1BO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="744.92753623188412" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Ai-kz-MPq">
+            <objects>
+                <viewController id="ehk-JC-uzC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6nX-kq-NCf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iu-jV-KQF">
+                                <rect key="frame" x="149" y="770" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue The Saga"/>
+                                <connections>
+                                    <segue destination="BSG-pb-LM4" kind="modal" id="rhd-5e-da9"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Opa-dz-Pzo">
+                                <rect key="frame" x="20" y="132" width="374" height="621"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The arrival of Bythrom's Star, tracing a ragged white scar across the heavens as it trailed the stuff of stars in it's wake, coencided with the Rise of the Avichillus Crusade. The cities forge barons had long ruled the mountainous city of Kyaetherika with a grip as cold and harsh as the iron and steel that came from their forges once it had been cured of it's impurities. Lording their position over the common citizens, they had abused this position of prestige for the last three centuries since their ancestors had laid siege to the pious city and captured it. Though their rule had been harsh, it hadn't quite managed to ever break the spirit of it's citizens whom, even as they toiled in the baking weapons shops and sweltering land yards, offered up prayers to the Creator. 
+
+Ever faithful that their creator would deliever them from such a fate, their prayers were alas answered as a simple shepard girl descended from the mountains, intent on bringing the benediction, or wrath, of her god to the great city. Though skilled at arms, having had to defend her family's houshold from the roaving mountain bandits, springheeled steppe theives and stalk trap walkers, her true skill lay in her ability as an orator. Within days of arriving, her speeches, often conducted from atop some tank or walker she had imobillized with nothing more than her staff, captivated crowds of thousands, whom soon became her eyes and ears throughout the city, reaching the hearts and minds of millions before the week was out. </string>
+                                <color key="textColor" red="0.94291322970000002" green="0.87578481640000005" blue="0.34229468689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1091789909665218" green="0.25060293537351097" blue="0.51889379768807276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="AZ1-fu-ZfM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6k-gJ-QnF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1482.608695652174" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KXA-eV-lbC">
+            <objects>
+                <viewController id="BSG-pb-LM4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zQZ-G2-fyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4k-pt-Mts">
+                                <rect key="frame" x="142" y="772" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue The Saga"/>
+                                <connections>
+                                    <segue destination="kVW-Lh-lem" kind="modal" id="lbH-Tg-Dnx"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uMd-nH-jF6">
+                                <rect key="frame" x="16" y="149" width="378" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The Barons would, of course, move to quash her movement almost as quickly as it sprang up. For they brooked no dissent ,not least of all that which came from a refusal to provide labor for their sprawling industry. Whatever merits their autokracy had, it was soon for naught as it became evident the people of Kyaetherika would no longer accept their rule. 
+It began with a general labor strike, the citizens refusing to work in the forges any longer until the Barons stepped down and aceeded to their demands. The Barons, not the ilk to brook dissent, mobillized their armies and house hold guards for battle, knowing that whatever situation was developing, it was nothing armored grape shot could not solve. But before the ink was even dry on the resolution to turn the streets deep crimson, the means by which they were to do so soon rebelled. The Valkyre Of Kyaetherika, as some had taken to calling the girl that had convinced them to take up arms, appealed to those whom already had them, quickly winning over many. 
+
+The violence that ensued saw the Barons ousted, many fleeing upon burning land steel clads and mobile land fortresses barely able to keep pace ahead of the persuing forces of The Faithful, the army that had ousted the Tyrants from their great steel stronghold. Those that could not flee quickly enough soon found themselves slaving in their own factory dungeons, those that were lucky that was. Many met a much darker fate as the citizens applied the Torments Of The Old Faith upon them, the lash and wrack far too lenient for the three centuries of suffering and sacrilege the Barons and their ilk had heaped upon them. The Valkyrie wasted no time in consolidating her hold on the city, and no sooner was it complete did she look abroad. </string>
+                                <color key="textColor" red="0.94291322970000002" green="0.87578481640000005" blue="0.34229468689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="s8y-qp-Cr5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qN7-wS-idS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2173.913043478261" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Y4-SQ-8r4">
+            <objects>
+                <viewController id="kVW-Lh-lem" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Nq-cz-sLN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eCM-Kj-oGz">
+                                <rect key="frame" x="20" y="147" width="382" height="601"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Spread before her was a lawless wasteland and, beyond it, an even yet more lawless wider world. She gazed upon the works of the Technocracy and Dominate, finding their reliance on technology and abandoning of the Old Ways to be repugnant. Yet she knew the task of bringing this heretical world into line would not be an easy one. As she sat amid the debris fields of the Barons last stand, the mobile fortress of the head baron her perch, she contemplated and meditated upon the struggle ahead. Though the nomads of the Barrens and Wastelands could be brought in line, the same couldn't be said for the cultures whom held territory on the edge of the Yuberian Cauldron. Conversion would be a long and costly affair for all sides involved. Yet, as she ultimately concluded, the blood of the faithful was up to the task of washing away the works of heretics and iconoclasts alike. Even if her own was counted among it. 
+
+Thus, with a newely forged blade in hand, armor crafted of plates shorn from the side of a destroyed fortress, and a new model army at her back, she sat out across the plains, intent on bringing the Light of her God to the world. Or, failing that, casting them into the darkness of chaos, allowing the light to fall upon the withered husks of what they once wore. </string>
+                                <color key="textColor" red="0.94291322970000002" green="0.87578481640000005" blue="0.34229468689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuU-4Z-uWk">
+                                <rect key="frame" x="142" y="748" width="131" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enter The Saga">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vNW-Xj-CkP" kind="modal" id="cR4-2P-LNP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Ne6-sG-z4S"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XR5-04-i7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2866.666666666667" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YSs-p9-0rK">
+            <objects>
+                <viewController id="vNW-Xj-CkP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N1l-0e-lRO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gpq-2W-CJM">
+                                <rect key="frame" x="147" y="782" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enter The Debate">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gRL-nt-QX0" kind="modal" id="JLf-Xn-tzu"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pui-Uz-F4K">
+                                <rect key="frame" x="20" y="137" width="374" height="627"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Gazing across the battered plains beyond the armored walls of Phaze Capitolis, you couldn't help but feel as though the creator's hand truly was reaching out to throttle the unfaithful masses for their centuries long apostasy. Though this was only a metaphor for what the forces of the Valkuryte Crusade would do were they to breach the walls, it was an apt one. It was often said any being that could stand, much less adore, the smell of burning flesh was deranged and fit only to be shot and dumped in a charnel pit before they themselves were consigned to the cleansing flames. Of course this was an old saying, but Vythea found it was an apt one. 
+
+Far below the sloping walls, past the fissures that circled the city as trenchworks, the defenders could only watch and listen as those who made the mistake of being captured by the Crusaders lived just long enough to regret those actions. Their screams melded together, almost as their pyres did as they blazed away in the evening light, the prayers ofthe priests that lit those pyres largely fading into the torrent of vocalized agony. It was hard to watch. Not simply for the spectacle, but for the affront to the Valkyries of the Technocracy. They had came to that city to protect the common citizen from the deprevations of the Crusader and their Thestorian Faithful. Yet, the Crusaders spared no one that stood before them. Not the soldier. Not the sert. Not the poet or the artisan. Not even the young or old alike. Behind the Valkyrie, the laqured golden domes of Phaze's outer districts, almost as grand as those within the city's core, were pock marked and scarred by the fire of artillery weapons and pincushioned by the great armored shafts launched from the Faitful's Ballistas. These weapons, often called the Wrack Of Tu'yol, were created to knock out armored walkers, constructs of war and other machinery that might possess an arcane defense barrier or otherwise be too robust for simple cannon or ordnance alone to deal with. Some, however, had been repurposed to the task of slamming through a structure, often ablaze as they did so. The Crusaders likened it to a spear of judgement, often like that which had impaled the notorious warlord Tu'yol to his throne in ancient times, ending the vagrant's threat to the people of the Yuberian Cauldron. Yet for such a richous tail, the tools of impaling tyrants and merciless warlords had now been turned upon families and simple workers. Even though the Technocracy's Defenders had ordered those districts evacuated, sending their populace further in land, the intent of the Crusaders had been clear. They came to spare no one that wouldn't offer
+ themselves
+ up to the creator as penance. Thus, is the Crusaders were determined to victimize the weak and the innocent along with their defenders, then they would recieve no mercy from her. The previous night's deliberations had left her as ill at ease as it had the rest of the Technocracy's forces. Even now, as they awaited the Crusader's renewed assault, standing next to where the previous one had failed upon the walls armored spikes, they could be seen in a huddle, their elegant, flowing armor seeming to meld together as it's radiant, amost luminescent blue feathers, similar to those of their wings, bent light around them. </string>
+                                <color key="textColor" red="0.94291322970000002" green="0.87578481640000005" blue="0.34229468689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Rzz-zo-f1M"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iig-r3-M52" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3608.6956521739135" y="16.741071428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y29-ZO-hde">
+            <objects>
+                <viewController id="gRL-nt-QX0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cdg-hD-zjt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owb-sh-9Z6">
+                                <rect key="frame" x="134" y="783" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue The Debate"/>
+                                <connections>
+                                    <segue destination="yHb-oN-1rI" kind="modal" id="LQQ-W3-jET"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hev-m3-81v">
+                                <rect key="frame" x="16" y="156" width="378" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The formost critic to your suggestion was, of course, your subordnate. Ioza. Much like yourself, her beauty was easily that which could make the normally rigid and regimented nobles of Ratheon's Imperial Elite cojule like cadets and Kaskraza's Merchant Affluent salivate, pushing aside the wealth before them simply to gain a better vantage point. However, looks alone didn't mean much to the Valkyries, all of whom understood that beauty could be lost in a moment, along with their lives were they carless or unfortunate. You valued Ioza's opinion in all things. Military or otherwise. Thus you took it under special consideration when the azure eyed Valkyrie, her elfin featured face a mask of worry, made her plea before you and the others. 
+
+"Is there really no other way to stem their numbers?" 
+
+She asked, doing her best to keep her voice at a pitch where the rest of the Technocracy defenders on the battlements and micro-bastions around them couldn't hear their commanders deliberating on a decision that could decide whether they lived to see kin and family, or were consigned to the cold grounds of the wastelands around the CITY, if not worse. 
+
+"Must we resort to that abominable device to safeguard these walls when the blood of our ancestors has done so for two centuries now?" 
+
+She inquired, making appeal to the martial spirit of the Valkyries, more so than their tactical one. However, her words largely fell on deaf ears among half her numbers. In fact, they only looked upon her with scorn, many unwilling to stay their course of action now that they had seen all too clearly what the Crusaders had in mind for the people of Phaze's Kingdom. Adjacent to her, opposite yourself, a Valkyrie clad in black armor sneered, her deep yellow eyes narrowing like a sun rise caught beneath a cloud layer. 
+
+"Against these barbarians, I'd wager there is no weapon too "abominable" to consider blasting those cretins back into the hole they emerged from." 
+
+She spat. If Ioza's words weighed on you heavily then so too did those of Cassha. Though Valkyries prided themselves on their humility as much as their martial talent, there was a class of your sisters in arms that couldn't be concerned with ethics or chivalry. To these select few, the edict was passed that their armor be stained in black, till the time they redeemed themselves of their infractions and sanguine nature. Some, you knew, would forever have this stain upon them, for only they knew what it truly took to win a war. Cassha was one such individual. She had been seconded to you by the Technocracy's Council Of Action, along with five thousand of her troops, eight-hundred artillery weapons, two-hundred tanks and seventy-five armored walkers. Though you always found her a tad bit paler than most individuals from the Technocracy's Alblet'yive Highlands, you found little wrong with her overall. Beyond her demeanour that was. 
+
+"I say we ruin those savages and hang what's left of them upon the walls as a warning to the next bunch about what it means to challenge the soveriengty of a nation defended by the Technocracy." 
+
+She reasoned from a standpoint of preventive intimidation. Not that intimidation worked on the Crusaders. However, their hesitation was building by the day as you'd noticed upon their last assault. The second they ran into your Skeeljak walker, which sat on the battlements behind you, it's double missile batteries aimed skyward and it's pair of auto cannons and rapid fire weapons aimed foward as they sat on a turret atop the machine's arachnoid like chassis. Something might have been said for intimidation given the Skeeljak took it's name from a mythical monster that prowled the lands of Nyubeifyhn. Better known as the lands of the "High Ice". 
+
+"Is there no cost in victory that is too high!?!" 
+
+Ioza's fury was mounting at Cassha, the pair having been grating on one another since their introduction, which had consequently seen a brawl break out at the feast hosted by Phaze Capitolis's ruling family. 
+
+"The fact you ask that question still shows you perhaps have no place on the field of battle." 
+
+Cassha scoffed, her grin not far from that of the serpentine visage atop her wing swept helm. </string>
+                                <color key="textColor" red="0.94291322970000002" green="0.87578481640000005" blue="0.34229468689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="J7X-YM-axf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ALL-PR-RpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4307.2463768115949" y="16.741071428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2hV-VR-G2Z">
+            <objects>
+                <viewController id="yHb-oN-1rI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6RG-Bo-zmV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Consider Ioza's Stance. " borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qwW-Dd-uP7">
+                                <rect key="frame" x="20" y="646" width="173" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tzm-j2-WKn">
+                                <rect key="frame" x="211" y="646" width="183" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0f-lA-XpK">
+                                <rect key="frame" x="211" y="646" width="183" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Consider Cassha's Stance. ">
+                                    <color key="titleColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <segue destination="omY-mF-8ab" kind="modal" id="tk6-LB-RCb"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OtR-LV-usv">
+                                <rect key="frame" x="20" y="149" width="374" height="474"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">You mulled over the words of both Valyries as Ioza and Cassha continued to debate one another, further dividing opionion as those commited to one camp or another began to second guess their previous decision. As campaign commander of the Eighty-Ninth Segment, the decision fell to you and you alone to deploy the dread weapon lurking five-hundred or so meters away in the wreckage of a workshop blasted into ruin by Thestorian siege bombards. Assembled in secret, it was the result of the Technocracy's research into the arcane element that permeated the lands of Nyubeifyhn. According to the engineers whom had crafted the weapon, there was no knowing what it could do, as no two tests of it yielded the same results. However, what was certain, was that the weapon, in theory, wouldn't affect the forces of the Technocracy or Phaze's own defenders. In theory. But you knew that, in theory, none of this should be happening given the Crusaders never should have found the organization or arms to pose the threat they did to the surrounding environment. 
+
+"But where there's a will, there's always a way.." 
+
+You thought. Thus, leaning upon your broad blade, it's pommel propping up the glowing cereulean gaunlets that encased your hands, you made your decision. </string>
+                                <color key="textColor" red="0.94291322970000002" green="0.87578481640000005" blue="0.34229468689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eN-vq-uDd">
+                                <rect key="frame" x="20" y="646" width="173" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Consider Ioza's Stance.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kMz-vL-Dvm" kind="modal" id="waD-ug-6dR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="SNv-Ss-eF9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OlH-U5-rmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5026.0869565217399" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="657-hw-i6v">
+            <objects>
+                <viewController id="kMz-vL-Dvm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cxh-z7-k2r">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EmM-uP-a1B">
+                                <rect key="frame" x="51" y="70" width="312" height="714"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">After a lengthy debate, punctuated by further screams in the distance, you decide to air on the side of caution. 
+
+"I'm not about to risk my battle plans on something that's uncertain." 
+
+You state, having heard dark rumours about the research involved in bringing the project to life. Though you weren't one for superstition, you knew nothing that was derived from the northern wastelands had ever lead to anything promising in the Technocracy's long history. In fact, archeologists and historians postured the idea that some culture had lived in the region before and that it had been their tinkering with elements beyond their control that had created the wasteland to begin with. 
+
+"Aww. Don't tell me you're buying into that supersticious nonsenses already." 
+
+Cassha derided your lack of enthusiasm for the efforts of the Tehnocracy's wing of weapon research and developement. 
+
+You shook her head, giving her a much better explanation. 
+
+"For all I know, that thing might blow the whole of Phaze away, us, the fanatics and the people we were sent here to defend along with it." 
+
+You stated, Ioza breathing a sigh of relief. The rest of the Valkyries were swayed by your weight of your words, being that you were the most senior one there. You began looking for alternative solutions to the impending defense dillema. Thouugh they weren't as promising, they were far more reliable. 
+
+The armored fort that had bore your Trident formation to the city was still operating in the city. Though your second in command fancied using it to bombard the attacking forces from the relatively safety of the stadium, you knew it was equally suited to leading an attack. At that moment the attackers believed they had the cities defenders bottled up. You knew of a route that lead beneath the city that was just large enough for a few tanks and walkers to slip through. While this didn't help in so far as moving the fortress went, the immense twenty-five or so meter tall machine was capable of burrowing. And it wasn't the only one of it's kind. 
+
+"Then what shall we do?" 
+
+Pondered Ioza, her sapphire blue eyes gazing upon you as if bereft of answers. You turned to her, and then to Cassha. 
+
+"Both of you, summon your fortress commanders. I think we shall have need of their services..." 
+
+You began, elaborating on what was to follow. Whether it would be the right decision or history would only come to shun it, time would only tell. </string>
+                                <color key="textColor" red="0.97594781090000005" green="0.086212705989999999" blue="0.058231153420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8w-ZR-7R5">
+                                <rect key="frame" x="126" y="792" width="163" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Conclusion"/>
+                                <connections>
+                                    <segue destination="36y-Bl-Haw" kind="modal" id="OsZ-ME-wGf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.3435041888203314" blue="0.87740537006263553" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="oLX-gK-0xe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C0S-AI-qb0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5751" y="-329"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Fh-Rl-59b">
+            <objects>
+                <viewController id="36y-Bl-Haw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7iu-sy-2bH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Conclusion I - Conventional Means. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eQU-I3-7k5">
+                                <rect key="frame" x="41" y="142" width="323" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABX-AF-gJn">
+                                <rect key="frame" x="126" y="375" width="153" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Return To Beginning"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="ogA-M8-xck"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="qbz-fz-gLG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UkI-a8-GoU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6590" y="-1154"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PHt-Iy-Vhg">
+            <objects>
+                <viewController id="omY-mF-8ab" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wmd-ns-f0J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2yV-Go-We0">
+                                <rect key="frame" x="28" y="94" width="355" height="624"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68257521795935916" green="0.028920480062087917" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">
+The screams rising from the distance made your choice clear. You glanced over your shoulder, as ill at ease with what you were witnessing as the rest of the Valkyries. Even Ioza shrank somewhat at the spectacle as the priests fiery rhetoric blazed as vividly as the pyres on which they burned their heretics. Even more forbodingly, you saw several pyres made of crystal being constructed. Of exquisite architecture, your spies had informed you that the Saint herself would preside over the subsequent "redemption" of any Valkyries that were captured. You were almost certain of what your fate would be were you to fail in your task. Even worse, the citizens of the city, whose lives would undoutably become all the more severe under the lash of the Crusaders. Beside you, you could see Cassha grinning, her talons already sinking into your conscience as you weighed the consequences. 
+
+You couldn't know what the weapon would do. 
+
+But you most certainly knew what the Crusaders would do to you and your forces. 
+
+Even there was even the smallest chance your forces could escape in tact, was it not worth considering? At the very least, even if the weapon did turn out to be as widly unstable as you suspected it was, at least your end would perhaps be a far more merciful one for your husband to describe to you children than the one they would ineviably be told by the Crusaders once they marched up to the gates of your home city of Melinzaris. 
+
+Thus, ever reluctantly, you turned to Cassha, giving a silent nod to her proposal. Ioza's expression grew pained, her gaze breaking with your own a few short second later. Though she didn't protest your decision, it's clear she did not endorse your proposal. Not that she had to. At least she'd be alive to voice her dissent. And she would honor your wishes all the same. 
+
+Taking it as a victory, Cassha immediatly clasped a firm hand on your shoulder, nearly causing you to loose your balance. 
+
+"You'll be clad in black in no time thinking like that." 
+
+She made a joke at your expense. Blackclads were frowned upon in all circles of the military, save those concerned with operations that would never be spoken of in any annuls or official records. Knowing that the enemy had to be funneled into the weapon's projected firing path, you decide upon your 
+
+"All the same, we need to build a defense around the weapon's site. The Crusaders must be drawn into it's maximum effective range." 
+
+You state, knowing that to consign anyone to that task would be asking much of kin and country. 
+
+"Hence why I will form the center defense." 
+
+You state, knowing it's your neck that's on the chopping block first and formost. You turn to Ioza, even though she still hasn't built the courage to return your gaze yet. However, she's ready for conflict all the same you feel. 
+
+"Ioza, position your siege guns and armor at the pre-designated positions around the Ikem City Core."
+
+You decide that since she's the least enamoured with what was going to happen, she should deserve to be the furthest away from it. At the very least she'd be able to tell her tale of what had occured. 
+
+"What about the short range guns?" 
+
+She questioned. While it was true the artillery battery she lead included weapons of many types, including the special weapon project she had refused to have among it, you had something special in mind for them. 
+
+"Use them to screen the evacuation." 
+
+You replied, knowing that would be a difficult prospect in and of itself. 
+
+"Our defense must give ground only at a pace that keeps the refugees further apace than the maniacs looking to use them as kindling." 
+
+Ioza understood, seeming somewhat satisfied with her task. Though her smile held it's reservations, you returned it and gave the Valkyrie a pat on the back before she spread her wings and dove from the side of the walls. She soon caught a gust and was carried aloft over the ruined golden domes and scattered debris that had once been the outer settlements. One by one, you assign the other Valkyrie commanders their tasks, from mining all roads ahead to reinforcing the city's standing militia. Alas the only individual left by the time of your briefing is perhaps the one you were least enthralled with. Cassha sat on a broken peice of masonry, cleaning her service arm as she awaited her turn. With a long sigh, you alas addressed her. 
+
+"To you, falls the task of covering my flanks." 
+
+You state bluntly, unsure of whether or not you should be entrusting the survival of your troops to such a wild card. However, you had seen the Crusaders and their Desert Nomad allies perform numerous encircling actions. More over, you knew that not even a generation ago, your ancestors had fallen to one such flanking attack, his mobile fortress hammered into oblivion under a relentless tide that was without mercy. 
+
+"What, no holding the center with yourself?" 
+
+Cassha teased, her index and middle finger pincing one of her long, white braided bangs, which glistened pearlescently in the evening sunlight. You shook your head.
+
+"The commander holds the center. Victory or Defeat should always rest on them and them alone." 
+
+You recite a parable from Keiceturn's Tacitus. Leave it to a Raethonian to boil war down to a science. Something the Technocracy, inspite of it's enlightened drive to learn, couldn't bring itself to do effectively. But the needs of the sciencetific state were seldome ever adequate for embracing the realities of war as you were learning. 
+
+"Right then." 
+
+Cassha stood up, dusting debris from her armored skirt. She was the model character for all Blackclads. Her belligerence could be sated no matter where she was, only so long as she fought in the manner she chose to. And since the district had been evacuated, that wouldn't be difficult to accomplish. 
+
+
+As the Dark Valkyrie strutted away, taking aim with her pistol to test it's sight, one of your subordinates came dashing up the steps adjacent to where you stood. They saluted you, his burnished white armor dulled in the evening light by countless scars and by a coat of ash and mud. Not only an attempt to avoid a nomad sniper's needle gun, but a solem vow to ensure those lost to the pyres were avenged. Their face, hidden behind a holographic mask that displayed a snarling visage, harkened back to the Technocracy's savage roots. Roots they seemingly couldn't shake no matter how far their progress came. But the Valkyries alike hailed from that tradition so who were you to judge? 
+
+"Evening Commander." 
+
+They gave you a mild bow, resting their hands on the dual emerald grips of their pistols. 
+
+"The troops await your command M'lady. I've devised two different battle strategems for our Trident. Each one is dependent on whether or not you wish to lead the battle from your personal guard or from your walker." 
+
+The leader of your Armored Fist Guard was impeccable in his planning. You hadn't even spoken to him and already he had surmised your course of action. No doubt based on the tactical situation. They knew you almost as well as you knew yourself, inspite of the fact you rarely interacted with one another outside of a professional capacity. Thus it behooved you to give a measured response to their question, knowing that to decide flippantly was to waste the strengths and skills of a keen tactical mind. </string>
+                                <color key="textColor" red="0.67543688189999995" green="1" blue="0.72521274940000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BE-up-pqx">
+                                <rect key="frame" x="114" y="764" width="183" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue..."/>
+                                <connections>
+                                    <segue destination="6cg-gh-L48" kind="modal" id="Wd3-nT-f3k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36701305352454389" green="0.17187631422324176" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="X25-UD-Tcf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6aG-dk-GZq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5750.7246376811599" y="319.41964285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s39-8L-LAz">
+            <objects>
+                <viewController id="6cg-gh-L48" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z4f-gL-ejM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="btR-9d-qS2">
+                                <rect key="frame" x="35" y="90" width="344" height="632"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">As the Dark Valkyrie strutted away, taking aim with her pistol to test it's sight, one of your subordinates came dashing up the steps adjacent to where you stood. They saluted you, his burnished white armor dulled in the evening light by countless scars and by a coat of ash and mud. Not only an attempt to avoid a nomad sniper's needle gun, but a solem vow to ensure those lost to the pyres were avenged. Their face, hidden behind a holographic mask that displayed a snarling visage, harkened back to the Technocracy's savage roots. Roots they seemingly couldn't shake no matter how far their progress came. But the Valkyries alike hailed from that tradition so who were you to judge? 
+
+"Evening Commander." 
+
+They gave you a mild bow, resting their hands on the dual emerald grips of their pistols. 
+
+"The troops await your command M'lady. I've devised two different battle strategems for our Trident. Each one is dependent on whether or not you wish to lead the battle from your personal guard or from your walker." 
+
+The leader of your Armored Fist Guard was impeccable in his planning. You hadn't even spoken to him and already he had surmised your course of action. No doubt based on the tactical situation. They knew you almost as well as you knew yourself, inspite of the fact you rarely interacted with one another outside of a professional capacity. Thus it behooved you to give a measured response to their question, knowing that to decide flippantly was to waste the strengths and skills of a keen tactical mind. </string>
+                                <color key="textColor" red="0.67543688189999995" green="1" blue="0.72521274940000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33e-Qg-acP">
+                                <rect key="frame" x="82" y="759" width="250" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Consider Your Options">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZhH-dY-Joz" kind="modal" id="0GP-e8-0wR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="K3O-4A-Jvy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8q-AV-pQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6507.2463768115949" y="319.41964285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UHk-1M-hVI">
+            <objects>
+                <viewController id="ZhH-dY-Joz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l7g-iP-fhP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a2z-Tu-Lxf">
+                                <rect key="frame" x="20" y="87" width="374" height="636"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">You turned away from the walls to the city interior, where, amid ruined building, your armored squadrons waited. Based on the description of weapons spoken of in the Hygh Myths Of Panderyzis, the Tehnocracy undoutably held the advantage in the production of walkers. While tanks and mechanical armor were undoutably responses to this innovation, none could quite match the destructive power of a reactor driven automaton of war, or it's versitility at any rate. Among the most numerous, and perhaps well known, of these was the Skeeljack. Trundling foward on eight articulated legs, the Skeeljack resembled the myth of the "Vythoid". A legendary warmachine born across the cosmos to vanquish the hordes of the barbarus and otherwordly Bolvokk Legion. Though the Vythoid in question was said to be a weapon that towered over most modern mobile fortresses, the Tehnocracy had taken a few sensibilities with their rendition of it. 
+
+Though not up to the task of vanquishing enemy armies, the sixy-ton walker was more than sufficient to give the average Raetheon Armor Squadron or Crusader Skarabas a bad day. Occupying a turret on it's double segmented body, the verticle rectangle of it's hex-array missile launcher glowed brightly, the solan warheads within it causing it to glow a luminous gold that shone through the hexagon shaped ports. To the right of this, sitting slightly foward in the hull mounting, was an Ice Saw auto cannon. Excellent at hammering down heavy infantry like the kind the Crusaders were bound to hurl through the breech. On the other side of this, two lesser weapons dubbed the "twin fangs" sat, their emitters crackling with blue lighting tinged with the same glow as the auto cannon and, indeed, the walker's bulbous, compound eye-cockpit assembly. Two more weapons sat upon the walker's talls, each of them anti-infantry weapons that would be scything down the horde of zealous adherents sure to swarm around the machines of the Faithful. 
+
+This Skeeljack, named "Ole Icesaw" was a gift from the State Foundry for your destruction of the Ratheon column that attempted to encircle the Tehnocracy defense of the Aurgard Metal Works during the 8th Hyjdrig War. It repalced your previous machine, which, much like yourself, had been thrown off a cliff by a Raetheon's Prince's Strider Fort during the battle for the foundary's bastion gates. Though you could fly, your previous machine couldn't, marking the end of a machine that had been in your family for decades. However, Skeeljack was the beginning of a new legacy. 
+
+The walker would undoutably be hampered by debris and streets alike when the bombardments kicked off. However, it would provide excellent protection and, more importantly, would be able to counter the enemy machines that would be forging ahead to try and break your front lines. That in and of itself would be invaluable. 
+</string>
+                                <color key="textColor" red="0.67543688189999995" green="1" blue="0.72521274940000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nde-ba-OQm">
+                                <rect key="frame" x="78" y="756" width="258" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Consider Your Options"/>
+                                <connections>
+                                    <segue destination="pFo-GE-N38" kind="modal" id="Iuc-Ym-ZvA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="iZS-tH-TLW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6jK-YR-XUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7214.4927536231889" y="319.41964285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XkS-DO-F7o">
+            <objects>
+                <viewController id="pFo-GE-N38" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hH9-ez-S4R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PPu-wI-rcJ">
+                                <rect key="frame" x="31" y="88" width="354" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">On the other hand, your Personal Guard stood vigilantly around your walker, fine tuning their weaponry in preparation for the coming defense. Consisting of dozens of handpicked warriors, they hadn't been much when you had strode before them for the first time, your visage marketedly furious after just having been thrown off a cliff by a Prince's close combat fortress. However, they stuck with you during your irritable hour of need, eventually gaining the skills, prowess and, more importantly, the self confidence to perform as the professional soldiers their nation needed. Thus it surprised even yourself when you lead them to storm the Veto Trephogon Fortress, bringing the siege engine to a halt by blowing it's reactor, avenging the earlier slight on your honor. Though not all of them were Valkyries, some of them fought better than many of your sisters ever had. There was a non-consistent mix of weaponry among them, but this was part of their advantage. No single enemy could ever truly counter them and, when they were placed in charge of their own squad, no attack could account for the disproportionate amount of damage they were capable of causing. 
+
+They stood with you, their baroque armor cut from the wreckage of the Trephogon Fortress and countless other warmachines that had fallen to them since then. </string>
+                                <color key="textColor" red="0.67543688189999995" green="1" blue="0.72521274940000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szd-D4-3Mh">
+                                <rect key="frame" x="134" y="794" width="147" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Render Your Decision">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aSx-ra-jlV" kind="modal" id="6sB-a2-kGt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="pYb-xZ-nId"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cRn-Z2-VUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7921.739130434783" y="316.74107142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P18-lP-vxg">
+            <objects>
+                <viewController id="Dfe-89-R9T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MbY-Bb-1w5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kph-E0-TVe">
+                                <rect key="frame" x="20" y="106" width="374" height="640"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <string key="text">"Ready the walker." 
+
+You state, knowing the machine is the best bet of stemming the tide. Since the Crusaders had subjugated the various nomad empires in the deserts, their capacity to field large numbers of warmachines had only grown. Though they could crank these engines of war out enmas, their quality showed when compared to a more sophisiticated warmachine. 
+
+"Of course commander." 
+
+Your second bowed, asceeding to your preference. Moments later, you heard the machine come to life below, shaking off debris and rubble from it's hull. With a series of rhytmic coos and clanks, the machine balanced itself upon it's hex of legs, shaking it's head from side to side as it cleared the remnants of a cathedral from it's eyes. Sometimes you found it fascinating that the machine was, allegedly alive in it' own way. The Technocracy's forwarys into Artificial Sentience had came quite a long ways since the earliest of the Daetheryn Dialogue Engines more than a century ago now. However, you knew from experience that it wasn't a certain science and that it was prone to malfunctions and other mishaps. However you had enough trust in it's three person crew to ensure success where tempermental technologies couldn't. You felt the prescence of the machine in your mind as the arcane systems in your helmet synched up with those of the warmachine. It was a familiar, somewhat homely prescence that was more akin to a pet than a machine of war. One you were tempted to pet. That was till you rememberd the task before you. In the distance, you heard the slow rumble of land engines as small mobile forts and land ships stirred to life, shaking off their momentary dormency among the clouds of burning smoke and debris. Tall exhaust stacks in the rear engine section of each fort and land ship belched greasy black plumes of smoke into the air as the Crusade's armor ground foward on a mixture of traction belts, barrelesque wheels and even mechanical legs that shook the ground with each successive foot fall. You heard the Phaze Militias and defenders scramble as commanders shouted out orders and obscinities. You were already in motion however, having left from the battlements as you headed down into the ruined maze of debris strewn cityscape below. Behind you loomed a barrier that wouldn't last long. But hopefully what lay ahead of you would ensure that it didn't have to. </string>
+                                <color key="textColor" red="0.97594781091827409" green="0.67173105352777762" blue="0.21140824045292753" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhb-kC-djG">
+                                <rect key="frame" x="115" y="782" width="185" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Attack Begins">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YOm-NU-GbV" kind="modal" id="Ejn-QE-Vzm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.18945537470629581" blue="0.15566934794455878" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kTD-ul-8gF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wgw-Dn-hyQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8160.8695652173919" y="985.71428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="E3q-N0-fcX">
+            <objects>
+                <viewController id="YOm-NU-GbV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hcM-tH-CJy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ezu-GT-2Kf">
+                                <rect key="frame" x="34" y="72" width="346" height="694"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">From atop your walker's cupola, you swiftly dimissed your guard, ordering them to the walls to bolster Phaze's milita units. They obeyed, eager to stir the spirit of vengeance in Phaze's defenders. A quick organization of the defenses revealed nearly five-thousand soldiers on the field under the banner of the Technocracy and Phaze's Kingdom. There were roughly sixty machines of war, including twenty-eight walkers, and fifteen artillery guns. There was even a small mobile fort, even though it was hidden in the wreckage of a stadium further away. Five land battleship were also scattered about, though only two of these belonged to your forces. Their shapes undulated and writhed as their immense techno-arcane power caused reality to bawk at their very prescence. These contrasted sharply to their rust worn counterparts from Phaze's Kingdom Guard, but they were no less formidable with hulls laidened down with Phaze's signature rocket batteries. Whether this meager force would break immediatly or hold long enough to draw the bulk of the Crusaders toward you remained to be seen. The approach of the Crusaders wasn't announced on their intiative, but by that of your forces. From the ruined stadium, you saw a deluge of bright blue rockets streak skyward. They kicked up a storm of bright luminous dust as they flew out of the stadium ruins and sailed overhead before disappearing beyond the walls. Explosions blanketed the other side of the walls, shortly before a storm of return fire came arcing your way. 
+
+The Crusader's bombardment was far more impressive than that of the fortress, combinging the fire power of several fortresses and land battleships to the defenders few. However, it was thankfully no where near as accurate. Glowing white missiles and bombs fell all around your position, causing the ground to tremble. Your soldiers and fighters sheltered under barriers generated by nearby tanks and walkers, riding out the fearsome bombardments as they split the ground asunder with quakes and toppled yet more of the war torn cityscape around them. Much to their credit, not a single of the Phaze V defenders broke and ran under the bombardment. Clutching their weapons, they instead stood ready alongside their Technocracy allies, their resolve seemingly hardened. Though you liked to believe it was patriotic fervor, you knew more pragmatically that it was a sense of fearlessness brought on by the acceptance of their fate. They knew like you there wouldn't be any mercy from the Crusaders. Only their fire and faith, which was already the fate of many of their comrads. To break now was to allow that fate to wash over the masses currently streaming away from the city's impending doom. Still, once or twice, the shields around a warmachine buckled and collapsed. When this occured, the walker or tank vanished in a plume of angry white explosions, and so too did those they were sheltering. You could only sigh, hoping another didn't follow as you looked into the debris and wreckage strewn crater that marked a loss of life, labor and, ultimatly the cities chances of survival. </string>
+                                <color key="textColor" red="0.97594781090000005" green="0.67173105349999995" blue="0.21140824050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mef-iP-FgI">
+                                <rect key="frame" x="112" y="789" width="190" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Attack Continues"/>
+                                <connections>
+                                    <segue destination="lrm-X9-wkd" kind="modal" id="EdH-4K-C38"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Wv0-XB-RUc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5I1-6C-Pnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8160.8695652173919" y="1666.7410714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="n22-tn-Nmt">
+            <objects>
+                <viewController id="frF-WS-h00" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fU7-dg-Uxm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="avk-yQ-0ec">
+                                <rect key="frame" x="13" y="44" width="388" height="713"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90502138909999996" green="0.95598271619999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">
+The distinct rumble of land engines was soon replaced by the pneumatic hiss of a battering ram. This noise was followed by a loud crash which struck the walls ahead, producing fissures and craks that raced to span the length of it's structure. Another hammer blow ensued that sent parts of the battlements falling down into the streets below. The third blow began the wall's general collapse with sections tumbling down slowely. Then, finally, the wall shattered, it's peicies flung meters into the air as the metaphorical armored fist of the Crusaders came crashing through, their faith upon their lips and it's fire at their backs. 
+
+
+As the bombardment lessened, you gazed through a slit in the bunker just in time to watch as a section of wall segment came down and the Crusaders made the first forays into a city that hadn't known a foreign invasion of it's streets in over decades. Right away, the towering, almost slab-sided icon of a Crusader's armored fortress caught your eye. Much like the squadrons of land ships moving around it, the structure moved on a series of wheels and armored mechanical legs, which propelled it foward along the now uneven ground. The fortresses alabaster white armor plating, trimmed with gold along it's edges, gleamed in the evening light, the missile array atop the fortresses still trading fire with the Tehnocracy's fortress hidden away in the Stadium. It would be some time before the fortress could get close enough with it's main weapons batteries to cut through the Stadium's ramshackle armor and masonry to reach it's foe. In the meantime, the landship squadron escorting it peeled away on either side to attempt a flanking movement to deal with the defenders. Almost as immediatly, the squadrons fell under attack. On the flank held by Cassha, her artillery immediatly consumed the first of the land ships in a fire storm before it drifted out of view of the bunker. The explosions on the flank held by the Phaze said their infamous missile array armed landships were causing bloody havoc for the enemy landships that entered their line of sight. Since keeping pace of the battle was the work of your second in command, from his head quarters at Site 93, it simply fell to you to hold the line around it in the center. This would be easier said that done you knew. Especially as you saw the horde of fanatical Crusader Zealots charging up the debris slopes created by their fotresses bombardment. Under the light of a vast, burning cruciform that was directly atop their mobile fortress, overlooking it's rocket batteries, the Zealots marched in white robes, the glowing orange lights of
+ their goggles and visors beneath their hoods leaving streaks of orange as they charged alongside armored spearheads of walkers and tanks that battered and ablaze from the Technocracy Fortresses artillery and bombardments. From their vantage point in the ruins around them, Phaze's defenders acted upon the training drilled into them by your personal guard. Mortar blasts were soon exploding over the Zealot lines, raining shredding blue shards of metal onto them that felled scores of the lightly armored faithful with each successive detonation. You found stragglers moving toward your bunker, making use of what scant cover they could manage, most of it absent after the kilzone clearing efforts of your Trident days earlier. You spotted a heavy weapons team moving with them, a pair of Zealots lugging a heavy auto cannon between them. They hadn't detected your prescence yet. Which was unfortunate for them. You gestured over your shoulder, where your quartet of guardsmen stood ready. Before you knew it, Kesta was bracing her sniper's weapon over your shoulder, much to your annoyance, as she prepared to line up a shot. 
+ 
+"Just give me a moment commander and we'll have this lot sorted out." 
+
+They stated confidently. You hoped they were indeed correct. For the dozens of Zealots that were swarming toward the armored temple behind you gave you more than a little consternation. You drew your weapon and took aim, just as your warriors around you did. 
+
+"Don't fire till you see the orange of their eyes." 
+
+You remarked. A smirk followed from Kesta as she pressed the trigger, the opening salvo opening up on the Crusaders as a hail of grenades flew down from the ruins behind your bunker, the Phaze joining the ambush with the battle cry of. 
+
+"For The Throne!"
+</string>
+                                <color key="textColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nv5-OJ-crq">
+                                <rect key="frame" x="79" y="776" width="257" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Valkyrie's Rage"/>
+                                <connections>
+                                    <segue destination="3Qz-dU-pqS" kind="modal" id="O4a-W3-foc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91819824859999999" green="0.77783868749999996" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="DqO-7L-xu6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gYQ-Pd-Vcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9096" y="1667"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4X8-kA-9zl">
+            <objects>
+                <viewController id="Cj7-Mg-zuQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pJh-QI-HDk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nps-JO-IRe">
+                                <rect key="frame" x="20" y="62" width="374" height="646"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Ice Saw's arcane barriers, resembling a glistte, flared with each impact of the Skeeljack's mace. The machine and it's squadron, joined by countless fanatics swarming at their feet with demolition charges and other weapons, charged up the slope, and directly into a combined missile barrage from every walker present and a salvo of infantry weapons from those defenders still present after the harrowing Skarabas assault. 
+
+"All forces, fall back to Site 93!" 
+
+You ordered, firing at the machine in the lead of the Skarabas assault. Blistering salvos were exchanged back and forth, turning the battlefield into a disorganized mess. A Skarabas exploded as a missile struck it's chest, punching through into it's reactor. Only the machine's legs were left standing, which fell to the ground in two heavy thuds. You paniced as a heavy thud hit your walker. For a moment, you feared it's shields had collapsed and it was open to direct bombardment. Instead, you found the site was one no less grim. The glowing blue goggles and slack jawed expression of one of Phaze's Royal Grenadeirs greeted you, a ragged hole in their polished armored plate. Though you would have shown deference to the fallen, you could unfortunately spare none. You kicked the man off of your walker, sending them tumbling to the debris slopes. Yet even in their demise, they were glad to pay unto their city's attackers one final blow. The Grenaderi's body landed on a trio of enemy zealots with demollition charges in hand. You snapped up your pistol and shot the first one to rise in the face, the weapons fire of a sniper finishing off the other two. Another zealot attempted to leap onto the Ice Saw from above, a knife in one hand and the glowing orange and metallic gray of a demo cylinder in the other. You were ready for them and your hand was already reaching out to throttle the enemy fighter. With time ticking down, they lunged at you with their weapon, only for you to turn the blade aside on your armored gauntlets. You grabbed the man by the throat and, unceremoniouly, slammed them head first into the side of the cupola. They went limp and you tossed them away into their comrads below. A swift kicked followed to the demo charge that dropped from their hands and it landed amid their comrads, not far from where it's owner's unconcious form had fallen. The resulting blast tore a ragged hole in the fanatic's lines, further punctuated by a debris slide that caused many others to lose their footing. Before you could return to your cupola, you found a Skarabas bearing down on your machine. The mighty blow of it's mace to the Ice Saw's shields sent the walker skiding back, slamming into the side of a structure. Just as you calculated when you gazed behind you, your defense had been driven back to the side of the structure that was the lynchpin of your defense. The baroque, somewhat majestic cathedral, covered in armored plates, loomed above you like a silent icon of doom. Though doom for whom, it had yet to be decided. 
+ 
+"Excellent!" 
+
+The Skarabas's pilot remarked, dodging a barrage from a Skeeljack's dual auto guns. It then leaped over and brought it's mace down atop the walker's weapons turret! Another heavy strike followed to the machine's head and finally the Skarabas reached beneath the walker and liftd it's stunned wreck up. You could hear the shouts and cries of the crew as their Skeeljack was thrown down the debris slope, sent tembling end over end till it's ruined heap finally cam to a rest dozens of meters from where you stood. The Skarabas's attentions came to you now, and the enemy automatons bright orange gaze was filled with malice. But it was not malice for you however. It was instead malice for the temple behind you. An icon of a faith that stood in defiance of the Thestorin's Holy Crusade. 
+
+"Another heathen temple to be ground down under the great tread of the Faithful!" 
+
+He stated as a rallying cry for the Crusader forces that were marching up the slope. You alas realized, as you gazed out upon the sea of orange and white that now surrounded the enemy fortress, that your position could be held no longer. Already reports on your augers, fed to you by your connection to the machine beneath you, indicatted that Cassha's defense, though having broken all of the enemy land ships along your flanks, was now confronted with eight more. The Phaze defense was rapidly being encircled on the other flank, and you could even see a small fort entering the breach in the walls that was on a trajectory for the Phaze held flank. But this was nothing compared to what faced you. 
+
+In the moments since the battle had begun, the enemy fortress had only drawn closer and it's towering girth was now so close, the light of the fortres bathed all around it in it's eerie orange glow. The Stadium where the Tehnocracy Fortress was at had now been completedly demolished and a fight between the fortresses had begun. No longer could this valuable asset continue bombarding the Crusader forces when it was now required to defend itself from direct assault. The voice of your second in command soon buzzed in your ear. 
+
+"My Lord! I fear our defense will not hold a moment longer. We must prepare to activate the weapon, or we must make ready to detroy it to ensure it does not fall into Crusader hands. But regardless, we must make ready to withdraw!" 
+
+He stated, rage and fustration in his voice, much as it was within you. The enemy Skarabas closed in, spotting that your walker's weapon arcs weren't in it's direction. Indeed, those same weapons were still engaged againt the enemy machines and fighters on the slopes. You knew you could turn them away to deal with the Skarabas, but that would leave the forces attempting to withdraw at the mercy of the Crusaders. 
+
+"I'm sure the Valkyurate herself will enjoy lighting your pyre when I present you to her, wings broken and the sigils of Purity burned onto your blasphemous flesh!" 
+
+The Skarabas's pilot threatened you. However, to his detriment and yours, you felt that things were hardly going to ensue in that fashion. As their club came up, you spoke the words that would damn the city around you and perhap yourelf by the time things were said and done. 
+
+"Unleash the Hammer!" 
+
+You spoke the code word to your highet ranking subordinate, your spear coming up as you sought to delay the enemy walker by another few seconds, leaping from your cupola as you embraced whatever was to come. Though fear and anger stung at your heart the most, it was the unknown that truly stung it. Whether your family would learn of your deeds in the city, and what was to come of them without you. Yet the greatest wander, was perhaps what exactly was to come from this dire weapon that you had expended lives to defend. 
+
+That answer was soon forth coming. 
+
+And in no way could you or any other being on that battlefield have ever have been prepared for the spectacle that was to ensue. </string>
+                                <color key="textColor" red="0.97594781090000005" green="0.67173105349999995" blue="0.21140824050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRq-CM-ZO8">
+                                <rect key="frame" x="114" y="762" width="179" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chaos!"/>
+                                <connections>
+                                    <segue destination="DCV-r9-5KP" kind="modal" id="u8B-Ue-uXi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="kGq-zv-cNe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uhy-aH-S5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8161" y="5278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HdI-DK-N1V">
+            <objects>
+                <viewController id="DCV-r9-5KP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s3R-Vm-wew">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="To Be Continued! " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qMR-Xc-7ar">
+                                <rect key="frame" x="36" y="172" width="343" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwe-d5-oUW">
+                                <rect key="frame" x="72" y="273" width="270" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Return To Beginning."/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="0PD-CS-A94"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="q5D-Qb-wTg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uol-ag-Eyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8641" y="6544"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kga-zC-EqB">
+            <objects>
+                <viewController id="mUN-14-V6t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hRm-he-NSt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lkn-Dw-ONi">
+                                <rect key="frame" x="20" y="70" width="374" height="670"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088994385309999993" green="0.20427239699999999" blue="0.42296264290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Dozens of glinting shapes came flying out of the smog that wreathed the enemy fortress, jets of flame following their ascent as they vaulted over the fortress, but never higher than the cruciform that still blazed away atop it. You recognized them almost instantly and dispatched orders to you crew accordingly. 
+
+"Full reverse!" 
+
+You ordered, keeping your spear ready as the shapes descended meteorically, their hulls pinging with weapons fire from below as they slammed down around your defensive lines, targeting the hardest points of infantry resistance that your forces could muster. One of these mechanoid creations landed where your walker had been, shaking the ground even as your machine found a new vantage point atop a higher debris pile. As Ice Saw redirected it's weapons arcs, you got a better look at the enemy machines. 
+
+Each was a ten or so meter tall, mechanical semblance of a desert scarab. If that scarab walked on two legs and carried a shield in one arm and a club in another. It's head, tucked away  in between two broad shoulders, was overlooked by a powerful array of shoulder mounted weapons. From auto cannons to rockets and other weaponry, each was an arsenal unto itself, the bright orange glow in their eyes lik the Eternal Flame spoken of in the Crusader's holy texts. You knew you looked upon the latest rendition of the weapons that had defeated the Factory Barons and kick started the Crusade in earnest. 
+
+"Skarabas..." 
+
+You hissed, two other Skeeljacks jumping to the aid of your Ice Saw while a fourth came lumbering down the side of the temple ruins behind you. Though your personal squadron was outnumbered, the advantage in technology was once more in your favor. A fact you fought hard to recall as one of the fearsome Skarabas pilots pointed their club at your machine, making the demand they did of all. 
+
+"Yield before our Lord!" 
+
+They bellowed, their cry joined by that of the other pilots in their clade. You shook your head, uttering a better demand in your mind. 
+
+"Die!" 
+
+You responded. 
+
+"Very well, I shall honor your request. 
+
+They responded, their walker leaping foward, the War Cry of the Crusaders on their lips. </string>
+                                <color key="textColor" red="0.97594781090000005" green="0.67173105349999995" blue="0.21140824050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qlz-rE-5NS">
+                                <rect key="frame" x="75" y="782" width="255" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Machine Clash"/>
+                                <connections>
+                                    <segue destination="Cj7-Mg-zuQ" kind="modal" id="GCh-nx-kx4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="SR8-UC-ZlL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jqo-jF-FVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8161" y="4557"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hoE-v1-tgy">
+            <objects>
+                <viewController id="lrm-X9-wkd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="98L-gP-w16">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HzS-XS-zMQ">
+                                <rect key="frame" x="20" y="66" width="374" height="677"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The Crusader' bombardment eased up, allowing your forces to reorganize themselves under your command. A cursory check behind you revealed the hardened structure that now hid the special weapons project was still intact. Reinforcig it had done some good at the very least. Especially since the sturcture had taken over twenty hits by your reckoning. Your own walker, as had several others, had been spared any significant damage. But the quakes that grew more violent by the second, causing sections of the wall ahead to collapse at it's heighest points, said this wouldn't be the case for long. No sooner had you yelled for your gunners to power up Ice Saw's weapons, the walls ahead were struck with a terrible force that sent cracks racing along it's surface in all directions, raidiating outward from the point of impact. Another blow followed that widened the fissures, causing sections of the battlements to collapse. Another impact drove a section of the wall outward, causing the structure to enter the first phases of a collapse. An then, the next blow shattered the walls, ending over a century of relative security that Phaze had enjoyed from the perils of the Yuberian Wastelands....
+
+As the walls came tumbling down, the armored fist of the Thestorin Crusaders came crashing through the storm of falling debris, their burning crucifixes and icons visible as angry orange smears in the errupting debris clouds. An immense armored fortress, thirty or so meters high, was the centerpiece of the assault, it's smoke stacks and exhaust pipes belching flames angrily into the air in the form of roaring, cyclonic columns that lit up the land battleship and smaller machines of war escorting it. Plated up in alabaster, trimmed with gold in between each plate from it's wheels and legs to it's highest tiers, you knew it could only be a commander's fortress. Based on the designs of the original Desert Forge Baron from which you recounted your own ancestry. Though you had seen and fought more bizzare designs, you could admit that this one struck a chord of fear, it's appearence seemingly designed to do just that. You could see that it was one of the fortresses that had just bombarded your lines. As evening set in, gloom slowely creeping across the embattled city, the brightness of the fortresses weapons only grew, adding to that fearsome reputation the Crusader's armament had earned on their night time assaults. The fortress continued advancing, but slowed down to a prodigenous pace, allowing the army that escorted it to swarm ahead. Meanwhile, the armored doors and ports mounted about the walker opened and parted, revealing it's fearsome array of weapons batteries. It's weapons spoke as one, causing the mighty fortress to shake as it blanketed the city in a torential storm of fire power. You watched as the enemy's barrages flew over your head, thankfully not targeting your immediate forces. Instead, the salvos ate away at the Stadium distant behind you. Though you hadn't seen the damage it had wrought, the Crusaders had clearly not had the best time of things under the hammer of the Technocracy mobile fortress. You saw further examples of this in the deluge of tanks
+, walkers and other machines that streamed through the breach in the walls opened by the mass fire power of the fortress and it's land ships. A good number of their escorts were ablaze themselves, touched with the radiant blue flames that only Tehnocracy weapons could inflict. It impacted their pace as crews hastily attempted to mend damage and put out blazes while not under fire. The damage wasn't as severe to the enemy's landships, which peeled away for the fortress in two squadrons of three. The squadron that attempted to flank left came under fire from Cassha's forces almost immediatly, the lead ships conning tower almost immediatly vanishing in a conflaguration of artillery blasts. The squadron that attempted to flank right ran into the stalwart defense of the Phaze land battleships, whom greeted them will all weapons batteries screaming to life. As missile salvoes buried the enemy land battleships to your left and right, the enemy's escorting attack force came careening into your lines, their mad zealotry perhaps outweighing their sense of self preservation as they fought with the migty crucifix of their deity at their backs, feeling it's warmth as it blazed away atop their commander's fortress. If they were so eager to go to the creator, then you would happily oblige them. 
+
+"All guns, target those fanatics and spill the blood they so eagerly deign as their sacrifice!" 
+
+You ordered, giving a nod to your gunner below. They were more than happy to fulfil your commands, and you soon saw and felt the Ice Saw's weapons come to life, their chant almost as loud as that of the dozens of zealots rushing your way. </string>
+                                <color key="textColor" red="0.97594781090000005" green="0.67173105349999995" blue="0.21140824050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYK-Ei-A5V">
+                                <rect key="frame" x="136" y="782" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zealot's Rage"/>
+                                <connections>
+                                    <segue destination="mV3-PL-ZhV" kind="modal" id="O1N-Gd-QSd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="9F8-Im-LYp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Niy-gV-uky" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8160.8695652173919" y="2382.5892857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vrn-vu-JIs">
+            <objects>
+                <viewController id="3Qz-dU-pqS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pwf-UM-byV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p2t-oH-PSj">
+                                <rect key="frame" x="20" y="74" width="374" height="677"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90502138909999996" green="0.95598271619999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">
+
+The first Zealot felled served as a brief warning of doom to their comrads. They slumped over, a ragged hole in their chest from Kesta's weapon. Another followed as she snapped over several more shots, and soon more joined the slaughter pistol fire and the occasional grenade came flying from the bunker. The heavy weapons teams were cut down before they could properly set up their weapons. Any tank that approached the bunker, intending to knock it out, was pincushioned by a cross fire of bright blue anti-tank blasts that tore the machines apart, flipping some into the air as their engines and onboard ordnance detonated, throwing all around them off their feet. Skeeljack walkers, some much like your own, added to the violence, cutting a swath through the enemy's lines. With every ingress into the city seemingly mined or a choke point, the losses of the Crusaders quickly began to mount. Of course their desperation caused an increase in their ferocity. Eventually the tide of fanatics reached the very armored slits of your bunker. However, it took only the swift action of drawing your combat weapon to deal with this matter. Turning aside blade strikes, you stabbed, punched and clubbed any foe in reach with the grip of your pistol. At one point, you found yourself kicking aside the tide of the defeated simply so it didn't impede your ability to exit the bunker. 
+
+This tide of battle continued for well over an hour, various ebbs and flows following in the battle till alas the Crusaders irritation caused them to send their mobile reserve. 
+
+As you stabbed a Crusader commander in the chest, twisting violently before throwing him away from the bunker's armored slit, you spotted several glinting objects that came speeding out of the layer of smog that surrounded the enemy's mobile fortress. You spotted them and it took only a passing glance to identify them. They resembled the bipedal form of many of the beetles you often saw scurrying about the Yuberian wastelands at night. If those bettles were a few meters tall, carried burning armored clubs, glowing metal shields and had an array of rocket launchers, grenade launchers and rotary auto cannons sitting on their shoulders,just below where their heads were tucked away at, their compound eyed gaze wide and hostile. You knew them to be the Skarabas. The Crusader's attempt at mass producing a walker and combat machine that might better make use of their resource of their numbers, while off setting their lack of heavy industry to crank out things like heavy walkers and tanks as easily as their enemies. The effort had born fruit given the success at which these machines had been able to force the nomadic empires of the Yuberian Cauldron to their knees. 
+
+"Oh look, more armored junk." 
+
+Remarked Kesta, drawing her pistol to finish off the wounded enemy. 
+
+"But junk we are not prepared to deal with." 
+
+You remarked, seeing hundreds more of these enemy machines as they came bounding over the fortress, but never higher than it's burning icon. You pointed to the bunker door. 
+
+"Fall back to secondary defensive lines!" 
+
+You ordered, among the first out of the bunker. Your surbordinates followed, but not before activating the bunker's remote fuse. By the time you left, scoring several more kills, but earning a few cuts and scrapes from grappling with charging Zealots, the fanatics had returned, backed up by their armored walkers. However, this time, they found the bunker as empty as the heights where the Phaze grenadeirs and their mortars had been. But what they did fine were softly whining demo charges, which, amid screams and shouts to flee the area, detonated, consuming every zealot in a fifteen meter raidus, and buffeting the Skarabas with debris and almost toppling a few of the walkers. A small victory. But not the one needed to hold the line, which you sensed was beginning to disentergrate around you as the assault continued. 
+
+A check with your second in command revealed that Cassha and the Phaze were being pushed back steadily. And soon, you were as well, the press of the enemy becoming more numerous as the Crusaders lived up to their threat to drown the foe in blood, faith and fire to achieve their aims of building a new Theocracy on the smouldering ruins of the old nations and powers that stood against them. </string>
+                                <color key="textColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvg-dl-fSV">
+                                <rect key="frame" x="155" y="772" width="105" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Valkyrie Rage II"/>
+                                <connections>
+                                    <segue destination="KDY-fJ-ihf" kind="modal" id="sqP-mj-96I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91819824859999999" green="0.77783868749999996" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="MaL-zU-sAq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lfb-8W-Noj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9111.5942028985519" y="2381.9196428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iRn-Uw-NtR">
+            <objects>
+                <viewController id="mV3-PL-ZhV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D34-ug-eHq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Um6-56-kwM">
+                                <rect key="frame" x="20" y="78" width="374" height="665"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Resplendent in white cloaks and robes, at first one might have mistaken the thronged masses charging across the debris strewn ground to be mere pilgrims with a mad thirst for war. However, many whom had thought this had found themselves consigned to the pyres or an early mass grave as these pilgrims drew close and revealed the violent orange glow of their helmet's armored visors. Wearing light armor that allowed them to move swiftly, they came bearing a mix of weapons. Automatic rifles, grenade launchers, solid shot hand cannons and burning braced clubs turned up in their hands as they threw a fussilade of fire power at the defenders. The fire fight almost immediatly favored the defenders, whom had the advantage of holding all adventageous defensive positions. The surrouning streets, despite their debris clogged and now labrythine nature, could not offer much protection for the Crusaders. Artillery bursts exploded overhead, showering their lines in burning blue shards and fragments that swiftly cut through their light armor and hoods, even as they attempted to scale these debris slopes. You shook your head, watching as a battle transport came driving up the debris slopes, the cruciform of the Thestorin emblazoned on the enemy machine's foward sloping hull. A moment later, the Ice Saw turned it's missile launchers in the machine's direction, opening fire. Unlike the Crusaders wild and corkscewing ordnances, your own were far more percise. They flew like well thrown darts, each blue white missile slamming into the transport and punching through it's hull. It fire balled moments later, blasted off it's treads as it went skyward on a thunderous plume of white flames that consumed the wreck before it flipped on it's horizontal axis and went flying back into the Crusader lines. Rather than risk another warmachine, the Crusaders attempted to drag their heavy weapons up the debris slopes. Their weapon teams moved incrementally, allowing their less encumbured comrads to perf
+orm the task of surpressing the infantry squads around your walker. They did an admirable job, forcing the defenders to keep to their cover as mortar shots from the attacks came whistling down. Almost instictively, you drew your spear, taking aim at the head of the nearest crusader. Where once Valkyrie Spears had taken the form of a melee weapon that could be thrown, modern sensibilities had turned the weapons into the Gwendylon VII Pistol, which emanated with the same radiant enerigies as your wings did. The Crusaders saw it, and their pace quickened, their weapons turning upon you as they opened fire in rapid succession. 
+</string>
+                                <color key="textColor" red="0.97594781090000005" green="0.67173105349999995" blue="0.21140824050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtT-s1-G9b">
+                                <rect key="frame" x="76" y="773" width="263" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zealot's Rage II"/>
+                                <connections>
+                                    <segue destination="Gc7-j9-bDq" kind="modal" id="Q6X-lo-5UX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="mhJ-S4-BLH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BMT-KY-Ref" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8161" y="3113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GN1-s6-BQV">
+            <objects>
+                <viewController id="KDY-fJ-ihf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DHw-jk-s4P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t04-TC-RZN">
+                                <rect key="frame" x="20" y="72" width="374" height="690"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90502138906005181" green="0.95598271616543395" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Soon you found your back to the flat of one of the many metal plates festooned to the side Site 93. Scattered around you was a vast field of wreckage that was the enemy assaults that had came previously. But alas the defenders were forced to fall back. Though there was more white than Tehnocracy Blue or Kingdom Black on the field, the tide of white only kept advancing. The city burned around you in the night, the vast icon of the enemy's mobile fortress seemingly the brightest among the infernos. It's weaponry had, after several hours, managed to blast enough of the stadium away in the distance that it was now in a direct engagement against your Trident's mobile fortress. You couldn't tell whom was winning. But you knew that it wouldn't be your fortress for long. Phaze's land ships squadrons, after accounting for fourty six of the enemies against ten of their own, had alas been pushed back and were in the early stages of a retreat. Cassha's forces had already done so and were now lobbing shots over the temple to give all forces in the center time to retreat. You weren't about to go anywhere however. At least not yet anyway. As your crouched in a crater, your knife burried in a Zealot's troat, you were determined to see the deployment of the weapon till the end. 
+
+"My Lord. We either deploy the Hammer now, or we must scrap it. However, we cannot allow it to fall into the enemy's hands and we cannot remain here any longer." 
+
+They reminded you as you raised your weapon, blasting the legs out from beneath a Zealot. Kesta cut the mortal coil of another zealot, her shot going through them to strike the fanatic behind them, causing panic in their squadron. Your other two guardsmen were dashing about the lines around them, delievering your order to withdraw. 
+
+"Then deploy it." 
+
+You ordered, swiftly nodding to Kesta. The pair of you quickly rose, covering one another as you fell back, using blocks of masonry blasted free from the armored temple early in the battle as cover. As you retreated, you felt a strange senation crawl up your spine. You gazed up to the temple, which suddenly seemed to glow from within, the sounds of clanging and metal being wrenched apart bellowing from within it's cavernous interior. Kesta almost had to drag you as the light momentarily stunned your senses, seeming to cause your vision to blur. 
+
+"Believe me. You don't want to be around this temple when that gets out here." 
+
+She warned you, her jade eyes imparting all the warning you needed on the subject. You weren't quite sure what she meant. Or how she would have that knowlege. 
+
+You weren't sure what the weapon would do truthfully. And neither was anyone else. 
+
+But what you would soon know, is that your expectations, and indeed those of every other being on the field, could in no way prepare you for the spectacle that was going to follow. </string>
+                                <color key="textColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIx-TA-rVq">
+                                <rect key="frame" x="150" y="795" width="115" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chaos"/>
+                                <connections>
+                                    <segue destination="DCV-r9-5KP" kind="modal" id="Zp6-RK-guO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91819824859999999" green="0.77783868749999996" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="WaY-dC-5vG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wMp-BF-drS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9123.188405797102" y="3112.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qtf-1G-2sc">
+            <objects>
+                <viewController id="Gc7-j9-bDq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lc0-iB-IIV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iXt-xC-iFq">
+                                <rect key="frame" x="20" y="86" width="374" height="665"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1175398735" green="0.26979400580000001" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The first Zealot that came under fire was clothslined by your shot, which continued through his neck and nailed the Fanatic behind him in the chest. Their own weapons fire simply splashed agains the shields of your walker, causing no appreciable harm by comparison. Eventually the exchange of fire ended in your favor when you gunned the legs out from under the assault's leader and then put another round through his stylized mask, ending his contributions to the battle as he crumpled into a heap on a slab of debris. The crusader weapons teams, meanwhile, were dealt with as grenades came flying over the their cover, forcing them to scramble, those that weren't outright thrown from their cover by the grenades concussive force. In the meantime, another three enemy tranports and tanks lay burning on the streets, their crews and passangers now using the wrecks as cover. 
+
+"Looks like this lot clearly didn't think they'd get this far." 
+
+Remarked one of your gunners, whom winced as a Crusader walker further down field errupted into a miniture mushroom cloud of orange light and smoke. However, you suspected this wasn't the ill-executed attack it seemed to be. The Crusaders hadn't gotten this far by being inept. They just simply hadn't had as much experience in dealing with the bastions of any organized power. They were learning however. You had a suspicion that they were simply testing your defense to judge how to properly overcome it before committing more of the assault. However, what they were throwing your way was more than enough to accomplish this. A glance on your walker's augers revealed the that the defense had achieved some success. On your left, one of the enemy land battleships was a burning wreck, it's conning tower a burning icon of defeat. Two other land battleships were still in the duel, but it looked like they were failing to fair as well. Both rocked under Cassha's artillery squadrons, and one was attempting to fight off a boarding attempt. On the right flank, there had been a land ship lost to each side. However, of those that fought, the Kingdom's were clearly in better shape. But more enemy forces were streaming in, in an attempt to turn the tide of the battle. </string>
+                                <color key="textColor" red="0.97594781090000005" green="0.67173105349999995" blue="0.21140824050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iec-fY-cBY">
+                                <rect key="frame" x="68" y="774" width="278" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Armored Assault"/>
+                                <connections>
+                                    <segue destination="mUN-14-V6t" kind="modal" id="V4O-l7-azz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96514111650000001" green="1" blue="0.24060761529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Cyi-Z7-vTS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vRD-Md-3Ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8161" y="3852"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tJz-m3-C9q">
+            <objects>
+                <viewController id="aBM-7z-CA3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iEt-qD-wkx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mBe-Hh-FPW">
+                                <rect key="frame" x="20" y="64" width="381" height="691"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">"Send the Walker elsewhere." 
+
+You state plainly, knowing it could do some good elsewhere. You had seen the state of Phaze's defenders and you knew well enough that they required an example that lead alongside them. Not from the vantage point of some machine behind them. Though the Ice Saw was certainly a morale booster, having a Valkyrie fighting alongside you also did wonders for the martial spirit. Even Cassha had proven an inspiration to the Royal Grenadeirs and Lancers, if albeit it a rough one. 
+
+"Tell the guard I'll be down there spearing fanatics with them momentarily." 
+
+You state, your right fist meeting the flat of your left palm as you flex your finger muscles, preparing for the brawl ahead. The fanatics were tennacious fighters in melee, willing to swarm a target with numbers where their technology couldn't avail them. But you had gone toe to toe with the Ratheon's boisterous mechanical knights and emerged on top. Some poorly armed and armored rabble was going to be far easier to deal with. 
+
+"At once my lord." 
+
+Your subordinate gives a light bow before turning and proceeding to comply with your orders. As he does so, you reach to your waiste, grabbing the weapon holstered there and drawing it to check and see if it's in good working order. A Valkyrie's spear was her second most important weapon, behind her meteoric ability to inspire and lead. At their inception, in those primative times, the spear had simply been a blade at the end of a long wooden shaft that was reinforced with metal. Now, it took the form of a high-powered, arcane pistol with two modes of fire. One that could blast the average enemy soldier off their feet, and another that could, at shorter ranges, bore a hole through the side of the average combat walker or tank. They were a rare weapon, and only a Valkyrie could weild one with any degree of profieicney, lessinging the burden of one should it fall into enemy hands. You recall the nasty sight of a Ratheon field commander once snatching up a fallen Valkyrie's weapon in an attempt to use it against you. The weapon was so complex, they couldn't figure out how to properly vent the pistol's coolant system, causing it to overhead and explode in their hand. You winced at this thought, almost missing the sensation of tremors racing along the wall beneath you. The shout of orders and movements on both sides of the walls brought the matter closer to home as you realized that the enemy was active once more. The rumble of nomad land engines resounded though the air as a cloud of greasy black smoke and flickering orange flames went up over the enemy lines. You quickly holstered your weapon as you got a running start toward the wall's edge. Then, in one graceful motion, you leaped off the side and spread your wings, causing a shimmering radiance to surround you as you glided down to the war torn city streets below. 
+
+Your landing immediatly reivigorated the Royal and Milita forces scattered about the buildings surrounding Site 93, the location of where the special weapons project was being stored at. The temple, now armored and plated in the wreckage of barbarian forts that had once surrounded the city in prior decades, resembled a miniture fortress rather than the holy site it had once been. Your second in command had calculated that the Crusaders wouldn't be able to resist the urge to destroy such a venerated site, meaning they'd funnel their army along a path that would allow the greatest concentration of troops to tread across the structure's ruins after one of their fortresses or a land battleship squadron flattened it. Past that, they would be confronted with the improvised fortress that had formerly been a Stadium. Said stadium now hosted one of the few Technocracy mobile forts on the field. The very same one that had ferried you and your guard to Phaze's capitol city. The fort would stay put, offering an immediate egress should things not go according to planned. It would also cover Cassha's forces and the Phaze forces on your flanks. Certainly an asset you knew. 
+
+Before you even landed, you saw that your guard hadn't been idle in the meantime. They had managed to hammer some semblance of regimentation into the Phaze defenders. The troops who had previously proven lax in their vigil saluted you almost immediatly as you landed, your Personal Guard behind them, arms folded as they kept an imperious watch over their charges. You touched down gently, folding your wings and approaching defense bunker that was little more than a hardened building with armor plates cut from enemy fortress bolted onto the side. One of your Guard Troopers, Kesta, was squatting atop the bunker, cleaning her Valkyrie's Spear as she doled out orders between runners, who took them and ran the dispatches to various parts of your defending lines. 
+
+Unlike other Valkyries, Kesta's Spear was, in fact, a sniper rifle. A rare example of the much maligned Uriox Pattern Long Spear rifle. The weapon, notorious for it's instability and slow rate of fire, was only continued out of necessity of contract, rather than any real love for it. However, it had proven quite effective in Kesta's hands. The crimson haired Valkyrie prided herself on being one of the few individuals to be able to get the weapon to function properly. She had built up quite the reputation among the Crusaders as a green eyed monster that stalked their leadership, leaving what was left of their officers and priests handing from the side of their own land ships and fortresses via daggers. You gave Kesta a cursory wave with two fingers and the Valkyrie looked up, her expression deadpan. 
+
+"It's that time already a?" 
+
+She remarked. Before you could give a proper answer, you heard the ballistic scream of a weapons battery and gazed up in time to spot several radiant blue missiles flying out of the Stadium. They arced overhead, leaving comet like trails in the evening sky before descending over the walls where they fell with thunderous detonations. You quickly pointed to the bunker, nodding in agreement to Kesta's statement. 
+
+"Right then." 
+
+She said, diving into the bunker alongside you and several other defenders. And not a moment too soon. The Crusader's counter response came flying over the walls in trajectories far more erratic than those that were now bombarding them incessantly. In spite of their sudden unsurge in artillery, it was clear they had little idea of how to properly use it. Their shots went wildly off course, missing their intended mark as they simply sought to saturate as much of the surrounding area as they could with ordnance. Quantity made up for quality however, and the sheer volume of fire took some toll upon the defenders lines. You saw one or two tanks and walkers, their shields being exploited for cover, go up in a fire ball when their arcane barriers failed, resulting in the loss of soldiers and machines alike in the ensuing conflaguration of white. The bombardment struck your position several times, but the building you were in thankfully held, the deflective plating on the side seeing off the worst of the damage. As it shook and rumbled, you could only grin, sharing the rough ride with your fellow Guard, of whom Kesta could be heard laughing. 
+
+"Looks like they really like us!" 
+
+Shouted one of the guardsmen, doing his best to keep his grip upon his grenade launcher. 
+
+"Or they can't aim worth a shit." 
+
+Remarked another, brandishing both pistols as they awaited the moment where they could use them. That moment was soon coming. The bombardment peetered out and the distinct rumble of land engines drew closer, echoing off the walls ahead of you. And since they weren't those of the trio of Phaze land ships that were on your flanks, that left only one other alternative. </string>
+                                <color key="textColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfR-ZC-pUY">
+                                <rect key="frame" x="73" y="788" width="275" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Attack Commences">
+                                    <color key="titleColor" red="0.97594781090000005" green="0.086212705989999999" blue="0.058231153420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="frF-WS-h00" kind="modal" id="vvH-m0-t8A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0kH-YQ-Rv0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZxQ-Iw-kVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9095.652173913044" y="985.71428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MLb-Kc-ePq">
+            <objects>
+                <viewController id="aSx-ra-jlV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KTf-BE-tPq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxl-vI-XNk">
+                                <rect key="frame" x="52" y="773" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Walker">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dfe-89-R9T" kind="modal" id="hsE-Be-eyE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKB-eH-1D7">
+                                <rect key="frame" x="282" y="773" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Guard">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aBM-7z-CA3" kind="modal" id="vYb-x4-tXR"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OBO-du-mBf">
+                                <rect key="frame" x="20" y="99" width="374" height="637"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36701305350000002" green="0.17187631419999999" blue="0.5586304728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.68257521799999998" green="0.02892048006" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="paQ-pc-iGx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wfF-PZ-UqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8640.579710144928" y="314.73214285714283"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Zp6-RK-guO"/>
+        <segue reference="ogA-M8-xck"/>
+    </inferredMetricsTieBreakers>
+</document>
